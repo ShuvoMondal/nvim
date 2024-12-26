@@ -29,7 +29,7 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 
 </details>
 
-# Neovim Keybindings Reference
+## Neovim Keybindings Reference
 
 Note: The `<leader>` key is mapped to `Space` in this configuration.
 
