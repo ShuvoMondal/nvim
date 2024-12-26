@@ -13,24 +13,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Set up plugins
--- require('lazy').setup {
---   require 'plugins.neotree',
---   require 'plugins.colortheme',
---    require 'plugins.bufferline',
---    require 'plugins.lualine',
---    require 'plugins.treesitter',
---    require 'plugins.telescope',
---    require 'plugins.lsp',
---    require 'plugins.autocompletion',
---    require 'plugins.none-ls',
---    require 'plugins.gitsigns',
---    require 'plugins.alpha',
---    require 'plugins.indent-blankline',
---    require 'plugins.misc',
---    require 'plugins.comment',
--- }
---
 require("lazy").setup({ { import = "plugins" }, { import = "plugins.lsp" }, { import = "plugins.ai" } }, {
 	checker = {
 		enabled = true,
