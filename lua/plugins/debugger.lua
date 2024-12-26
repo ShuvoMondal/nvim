@@ -14,7 +14,7 @@ return {
 
 			require("dapui").setup()
 			require("dap-go").setup()
-			require("dap-python").setup()
+			require("dap-python").setup("python3")
 
 			require("nvim-dap-virtual-text").setup({
 				display_callback = function(variable)
