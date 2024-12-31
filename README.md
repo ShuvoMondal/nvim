@@ -1,6 +1,6 @@
-# Neovim Kickstart 2025
+# Neovim Setup 2025
 
-This repository contains my custom Neovim configuration for 2025 based on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim). It includes features like Telescope, LSP, syntax highlighting, formatting, linting, Git integration, and more.
+Welcome to my personal Neovim configuration repository for 2025! This setup is based on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim). It's designed to be beginner-friendly yet powerful, help me unlock Neovim's full potential. It includes detailed key mappings, curated plugins, and clear instructions to get started.
 
 #### Linux Install
 
